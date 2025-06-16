@@ -1,0 +1,10 @@
+server:
+  #address: localhost
+  address: 0.0.0.0
+  port: 9093
+spring:
+  kafka:
+    #bootstrap-servers: localhost:9092
+    bootstrap-servers: kafka:29092
+    consumer:
+      group-id: json-group
