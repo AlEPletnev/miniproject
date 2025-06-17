@@ -141,7 +141,7 @@ services:
 
   aggregator-service:
     build:
-      context: C:\Users\AlexPC\Desktop\javaProject\task\Aggregator-Service 
+      context: .\Aggregator-Service 
       dockerfile: Dockerfile  
     container_name: aggregator-service
     ports:
@@ -161,7 +161,7 @@ services:
 
   order-service:
     build:
-      context: C:\Users\AlexPC\Desktop\javaProject\task\app  
+      context: .\orderservice  
       dockerfile: Dockerfile  
     container_name: order-service
     ports:
@@ -186,7 +186,7 @@ services:
 
   notification-service:
     build:
-      context: C:\Users\AlexPC\Desktop\javaProject\task\notificationservice
+      context: .\notificationservice\
       dockerfile: Dockerfile
     container_name: notification-service
     ports:
